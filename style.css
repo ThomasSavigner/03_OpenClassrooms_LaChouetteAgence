@@ -8918,6 +8918,15 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-quote {
+    font-size: large;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
