@@ -61,6 +61,9 @@ a:hover {
     outline: 0
 }
 
+a:focus {
+    border: 2px solid white;
+}
 abbr[title] {
     border-bottom: 1px dotted
 }
@@ -3692,7 +3695,7 @@ textarea.input-lg {
 .btn:focus,
 .btn:hover {
     color: #333;
-    text-decoration: none
+    text-decoration: underline
 }
 
 .btn.active,
@@ -4851,7 +4854,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .nav>li>a:focus,
 .nav>li>a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     background-color: #eee
 }
 
@@ -8864,21 +8867,22 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #754E27;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #754E27;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #8D4421!important;
     color: #FFFFFF!important;
+    text-decoration: underline;
 }
 
 .ltc-white {
